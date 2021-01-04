@@ -1,0 +1,157 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://i.imgur.com/4dmsmVH.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Pozicionálás */
+
+#profile-card {
+    width: 640px;
+    max-width: calc(100vw - 10px);
+    background-color: hsla(0, 0%, 100%, .9);
+    border-radius: 9px;
+    box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
+}
+
+#head, #links {
+    text-align: center;
+}
+
+#links {
+    margin-top: 25px;
+}
+
+#head, #content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 2px;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+#profile-image {
+    margin-top: -60px;
+}
+
+/* Contact links */
+
+#ullink {
+    list-style-type: none;
+}
+
+#lilink {
+    display: inline;
+}
+
+#head, #about {
+    margin-bottom: 2.5%;
+}
+
+#content {
+    padding: 2.5% 10%;
+    border-top: 1px solid hsla(0, 0%, 30%, .9);
+}
+
+/* Szövegformázás */
+
+h1 {
+    font-size: large;
+    font-family: Arial;
+    font-weight: 800;
+    color: rgb(49, 49, 49);
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: medium;
+    font-family: Arial;
+    font-weight: 520;
+    color: rgb(49, 49, 49);
+    margin-bottom: 5px;
+}
+
+span {
+    font-size: medium;
+    font-family: Arial;
+    font-weight: 450;
+    color: rgb(100, 100, 100);
+}
+
+h3 {
+    font-size: medium;
+    font-family: Arial;
+    font-weight: 510;
+    color: rgb(49, 49, 49);
+}
+
+b {
+    font-style: italic;
+    color: rgb(110, 110, 110);
+}
+
+.contact {
+    font-weight: 500;
+    color: rgb(70, 70, 70);
+}
+
+a:link, a:visited, a:active {
+    font-size: large;
+    color: rgb(110, 110, 110);
+}
+
+#felsorolas {
+    list-style-type: none;
+    font-family: Arial;
+    font-weight: 450;
+    color: rgb(100, 100, 100);
+    margin-bottom: -7.5px;
+}
+
+#behuzas {
+    padding-left: 30px;
+}
+
+#par {
+    font-size: large;
+    font-family: Arial;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+    margin: 0px 0px -5px 0px;
+}
+
+#para {
+    font-size: large;
+    font-family: Arial;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+    margin: 0px 0px 0px 0px;
+}
+
+#info {
+    font-size: large;
+    font-family: Arial;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+    margin: auto;
+}
